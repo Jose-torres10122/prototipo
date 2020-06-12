@@ -1,0 +1,94 @@
+*{
+    padding: 0; 
+    margin: 0;
+} 
+
+p{
+    border: 1px solid black;
+}
+section{   
+    
+    margin-top: 230px;
+    padding: 20px;
+    width: 100%; 
+    
+} 
+
+.sesion{
+    margin: auto; 
+    width: 70%; 
+    max-width:400px; 
+    
+    padding: 10px;
+    border: 1px solid black;  
+    border-radius: 15px;  
+    box-sizing: border-box;
+    
+background: white;
+    
+} 
+.form{
+    width: 100%; 
+    text-align: center; 
+    margin-top: 4px;
+   
+} 
+
+.entradas .N , .entradas .p { 
+    display: block; 
+    width: 100%; 
+    padding: 5px 0;
+    
+} 
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.entradas{ 
+
+width: 98% ; 
+    padding:0px 5px;     
+} 
+
+.btn{   
+    display: block;
+    background: #3a7999;
+   padding: 10px; 
+    width: 150px;
+    margin: auto; 
+    margin-top: 10px; 
+    border: none; 
+    border-radius: 15px;
+    transition: width 0.5s;
+  
+}   
+.btn:hover{
+    width:190px;  
+    background:rgba(48, 80, 186, 0.85) ;
+}
+.btn span{
+    margin-right: 10px;
+} 
+.Registro a{ 
+    display: block;
+    padding:8px; 
+    text-decoration: none; 
+    text-align: center; 
+    margin-top: 5px;
+}
+ 
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
